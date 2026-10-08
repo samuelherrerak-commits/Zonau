@@ -1,0 +1,22 @@
+name = "zonau-bot"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+# TODO: crea el namespace con `npx wrangler kv namespace create ZONAU_KV`
+# y pega aquí el id que te devuelve.
+[[kv_namespaces]]
+binding = "ZONAU_KV"
+id = "TODO_KV_NAMESPACE_ID"
+
+[vars]
+GRAPH_VERSION = "v21.0"
+
+# Secretos (NO van en este archivo). Configúralos con:
+#   npx wrangler secret put WHATSAPP_TOKEN            # token permanente (usuario del sistema)
+#   npx wrangler secret put WHATSAPP_PHONE_NUMBER_ID  # ID del número en Meta
+#   npx wrangler secret put META_VERIFY_TOKEN         # texto que tú inventas
+#   npx wrangler secret put META_APP_SECRET           # "Clave secreta de la app" en Meta
+#   npx wrangler secret put APPS_SCRIPT_URL           # URL /exec del Web App
+#   npx wrangler secret put APPS_SCRIPT_SECRET        # igual a API_SECRET en Apps Script
+#
+# Para desarrollo local, ponlos en worker/.dev.vars (ver .dev.vars.example).
