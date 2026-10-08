@@ -1,0 +1,6 @@
+{
+  "CAM-0810-K9R": { "trackId": "CAM-0810-K9R", "fecha": "2026-10-08T15:20:00Z", "cliente": "Samuel H.", "pedido": "2x Camisa Oversize (negra, logo en el pecho) · 1x Taza Mágica", "estatus": "Pago por verificar", "modalidad": "Envío MRW", "guiaMRW": "", "totalUSD": 40, "restanteUSD": 16, "actualizado": "2026-10-08T15:20:00Z" },
+  "TAZ-0710-X8B": { "trackId": "TAZ-0710-X8B", "fecha": "2026-10-07T20:05:00Z", "cliente": "Carlos M.", "pedido": "1x Taza Mágica (foto de boda)", "estatus": "Listo para retirar", "modalidad": "Retiro", "guiaMRW": "", "totalUSD": 10, "restanteUSD": 4, "actualizado": "2026-10-08T13:00:00Z" },
+  "CAM-0610-A2P": { "trackId": "CAM-0610-A2P", "fecha": "2026-10-06T14:15:00Z", "cliente": "Ana L.", "pedido": "2x Camisa Oversize (blanca)", "estatus": "Enviado", "modalidad": "Envío MRW", "guiaMRW": "000-123456", "totalUSD": 30, "restanteUSD": 0, "actualizado": "2026-10-08T18:30:00Z" },
+  "LLA-0510-HJK": { "trackId": "LLA-0510-HJK", "fecha": "2026-10-05T14:15:00Z", "cliente": "María P.", "pedido": "3x Llavero Acrílico", "estatus": "Cancelado", "modalidad": "Delivery", "guiaMRW": "", "totalUSD": 15, "restanteUSD": 0, "actualizado": "2026-10-06T10:00:00Z" }
+}

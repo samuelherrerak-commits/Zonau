@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "data": {
+    "productos": [
+      { "id": "CAM-01", "categoria": "Camisas", "nombre": "Camisa Oversize", "descripcion": "Estampado DTF full color, algodón 100%", "precio": 15, "tiempoEntrega": "3 días hábiles", "imagen": "", "personalizable": true },
+      { "id": "CAM-02", "categoria": "Camisas", "nombre": "Camisa Clásica", "descripcion": "Corte regular, estampado frontal", "precio": 12, "tiempoEntrega": "3 días hábiles", "imagen": "", "personalizable": true },
+      { "id": "TAZ-01", "categoria": "Tazas", "nombre": "Taza Mágica", "descripcion": "Revela tu foto con el calor", "precio": 10, "tiempoEntrega": "2 días hábiles", "imagen": "", "personalizable": true },
+      { "id": "TAZ-02", "categoria": "Tazas", "nombre": "Taza Blanca 11oz", "descripcion": "Sublimada con tu diseño", "precio": 7, "tiempoEntrega": "2 días hábiles", "imagen": "", "personalizable": true },
+      { "id": "LLA-01", "categoria": "Llaveros", "nombre": "Llavero Acrílico", "descripcion": "Con tu foto o nombre", "precio": 4, "tiempoEntrega": "2 días hábiles", "imagen": "", "personalizable": true },
+      { "id": "REG-01", "categoria": "Regalos", "nombre": "Box Regalo", "descripcion": "Taza + llavero + tarjeta, empacado", "precio": 18, "tiempoEntrega": "4 días hábiles", "imagen": "", "personalizable": true }
+    ],
+    "config": {
+      "Nombre_Tienda": "Zonau",
+      "WhatsApp_Ventas": "58XXXXXXXXXX",
+      "Instagram": "zonau.ccs",
+      "Porcentaje_Adelanto": 60,
+      "Costo_Delivery_USD": 3,
+      "Costo_Envio_MRW_USD": 0
+    }
+  }
+}

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rastrea tu pedido — Zonau</title>
+  <meta name="description" content="Consulta el estado de tu pedido Zonau con tu número de seguimiento.">
+  <meta name="theme-color" content="#0A0A0A">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-tracking">
+  <header class="site-header">
+    <a class="logo" href="./" aria-label="Zonau, inicio">ZONAU<span class="logo-dot">.</span></a>
+    <nav class="nav">
+      <a class="nav-cta" href="./#catalogo">Catálogo</a>
+    </nav>
+  </header>
+
+  <main class="tracking">
+    <section class="tracking-head">
+      <p class="eyebrow">Seguimiento</p>
+      <h1>Rastrea tu<br><span class="hl">pedido.</span></h1>
+      <form class="track-form" id="track-form" novalidate>
+        <label for="track-id" class="label">Número de seguimiento</label>
+        <div class="track-row">
+          <input id="track-id" name="id" class="input" type="text" inputmode="text" autocomplete="off"
+                 autocapitalize="characters" spellcheck="false" placeholder="CAM-0810-K9R" maxlength="20" required>
+          <button class="btn btn-primary" type="submit">Consultar</button>
+        </div>
+        <p class="muted small">Lo recibiste por WhatsApp al confirmar tu pedido.</p>
+      </form>
+    </section>
+
+    <section class="track-result" id="track-result" aria-live="polite"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <p class="logo logo-sm">ZONAU<span class="logo-dot">.</span></p>
+      <p class="muted">Personalizados en Caracas.</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://instagram.com/zonau.ccs" target="_blank" rel="noopener">Instagram @zonau.ccs</a>
+      <a href="./#catalogo">Catálogo</a>
+    </div>
+  </footer>
+
+  <script type="module" src="js/tracking.js"></script>
+</body>
+</html>
