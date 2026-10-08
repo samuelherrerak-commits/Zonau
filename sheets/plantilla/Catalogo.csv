@@ -1,0 +1,7 @@
+ID_Servicio,Categoria,Nombre,Descripcion,Precio_USD,Tiempo_Entrega,URL_Imagen,Personalizable,Activo,Orden
+CAM-01,Camisas,Camisa Oversize,"Estampado DTF full color, algodón 100%",15,3 días hábiles,,TRUE,TRUE,1
+CAM-02,Camisas,Camisa Clásica,"Corte regular, estampado frontal",12,3 días hábiles,,TRUE,TRUE,2
+TAZ-01,Tazas,Taza Mágica,Revela tu foto con el calor,10,2 días hábiles,,TRUE,TRUE,3
+TAZ-02,Tazas,Taza Blanca 11oz,Sublimada con tu diseño,7,2 días hábiles,,TRUE,TRUE,4
+LLA-01,Llaveros,Llavero Acrílico,Con tu foto o nombre,4,2 días hábiles,,TRUE,TRUE,5
+REG-01,Regalos,Box Regalo,"Taza + llavero + tarjeta, empacado",18,4 días hábiles,,TRUE,TRUE,6

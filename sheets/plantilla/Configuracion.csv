@@ -1,0 +1,28 @@
+Variable,Valor,Descripcion
+Nombre_Tienda,Zonau,Nombre que usa el bot y la web.
+WhatsApp_Ventas,58XXXXXXXXXX,"TODO: número de ventas, formato internacional sin + ni espacios."
+Instagram,zonau.ccs,Usuario de Instagram sin @.
+URL_Catalogo,https://zonau.example.com,TODO: dirección de la web.
+URL_Tracking,https://zonau.example.com/tracking.html,TODO: dirección de la página de seguimiento.
+Porcentaje_Adelanto,60,% mínimo para iniciar el trabajo. Pon 100 para exigir pago completo.
+Metodos_Activos,"Pago Móvil, Zelle, Transferencia",Separados por coma. Cada uno necesita su fila Datos_<Metodo>.
+Metodos_En_Bolivares,"Pago Móvil, Transferencia",Métodos que se cobran en Bs. a tasa BCV. El resto se cobra en USD.
+Datos_PagoMovil,"Banco: TODO (0000)
+CI: V-XX.XXX.XXX
+Teléfono: 04XX-XXXXXXX",Lo que el bot envía al elegir Pago Móvil.
+Datos_Transferencia,"Banco: TODO
+Cuenta: 0000-0000-00-0000000000
+Titular: TODO
+CI: V-XX.XXX.XXX",
+Datos_Zelle,"Correo: TODO@ejemplo.com
+Titular: TODO",
+Datos_EfectivoUSD,Se paga al momento de retirar o con el delivery.,"Solo si agregas ""Efectivo USD"" a Metodos_Activos."
+Datos_Binance,Pay ID: TODO,"Solo si agregas ""Binance"" a Metodos_Activos."
+Info_Retiro,"TODO: dirección, punto de referencia y horario de retiro",
+Costo_Delivery_USD,3,Delivery dentro de Caracas.
+Costo_Envio_MRW_USD,0,0 = cobro a destino.
+Nota_Envio_MRW,El envío por MRW se paga a destino.,
+Horario_Atencion,"Lun a Sáb, 9am a 6pm",
+Fuente_Tasa,auto,"""auto"" usa la tasa BCV de internet. Si escribes un número, el bot usa ese número."
+Tasa_Manual,,Tasa de respaldo si internet falla.
+Mensaje_Bienvenida,,"Opcional. Si lo dejas vacío, el bot usa su saludo por defecto."
